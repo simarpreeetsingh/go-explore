@@ -1,7 +1,11 @@
 package main
 
-import "github.com/simarpreeetsingh/go-explore/lib/linkedlist"
+import (
+	"github.com/simarpreeetsingh/go-explore/lib/linkedlist"
+	"github.com/simarpreeetsingh/go-explore/lib/stack"
+)
 
 func main() {
 	linkedlist.Explore(nil)
+	stack.Explore(nil)
 }
